@@ -33,4 +33,30 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@android:drawable/btn_star_big_on" />
 
+    <ScrollView
+        android:id="@+id/bio_scroll"
+        android:layout_width="409dp"
+        android:layout_height="598dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/star_image"
+        app:layout_constraintVertical_bias="0.48000002">
+
+
+        <TextView
+            android:id="@+id/bio_text"
+            style="@style/NameStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingMultiplier="1.2"
+            android:paddingStart="@dimen/dimmenPadding"
+            android:paddingEnd="@dimen/dimmenPadding"
+            android:text="@string/bio"
+            tools:text="@string/bio" />
+    </ScrollView>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
