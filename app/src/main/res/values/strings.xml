@@ -5,4 +5,6 @@
     <string name="bio">Tanto en Windows 8 como en Windows 10, la forma de convertir el ordenador en un punto de acceso WiFi es idéntica.\n\n\n
         \nVamos a tener que llevar a cabo el procedimiento desde Símbolo del Sistema, la consola de comandos del sistema.\n\n\n
         \nEn el menú de Inicio podemos buscar ‘Símbolo del sistema’, y tendremos que hacer clic derecho para ‘Ejecutar como administrador’.</string>
+    <string name="what_is_your_nickname">What is your Nickname?</string>
+    <string name="Done">Done</string>
 </resources>
